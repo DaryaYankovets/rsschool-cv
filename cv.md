@@ -16,7 +16,7 @@
 
 
 ## ![logo](/img/logo.svg) **Education**
-2012 - **Belarusian State University of Informatics and Radioelectronics**, Engineering and Economics Faculty, Information systems and technologies (in economics)
+**2012** - BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS, Engineering and Economics Faculty, Information systems and technologies (in economics)
 
 
 **2021** - Course "JavaScript / DOM / Interfaces" (learn.javascript.ru)
@@ -25,7 +25,7 @@
 
 
 ## ![logo](/img/logo.svg) **Career**
-2012 - 2021 **Belarusbank, SAP Business Analyst** 
+**2012 - 2021** Belarusbank, SAP Business Analyst 
 
  development of design solutions, documentation, functional and integration specifications in the areas of SAP HR, MM, FI- AP/AR, testing of the developed programs. System Setup.
 
@@ -37,6 +37,11 @@
 * React JS
 * basic knowledge of working with Git
 
+## ![logo](/img/logo.svg) **Projects**
+
+* [CV](https://DaryaYankovets.github.io/rsschool-cv/cv) (Marcdown)
+* [Online restaurant](https://github.com/js-tasks-ru/jsbasic-20210722_yankovets-daria) (coding only part of JavaScript)
+
 
 ## ![logo](/img/logo.svg) **Example code**
 ```
@@ -46,8 +51,6 @@ function factorial (n) {
   return n * factorial(n-1)
 }
 ```
-
-
 
 
 ## ![logo](/img/logo.svg) **Languages**

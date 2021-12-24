@@ -41,6 +41,7 @@
 
 * [CV](https://DaryaYankovets.github.io/rsschool-cv/cv) (Marcdown)
 * [Online restaurant](https://github.com/js-tasks-ru/jsbasic-20210722_yankovets-daria) (coding only part of JavaScript)
+* [Todo list](https://github.com/DaryaYankovets/react_native_todo) (React Native)
 
 
 ## ![logo](/img/logo.svg) **Example code**

@@ -43,4 +43,12 @@ ul {
 /* --- end styles main --- */
 
 /* --- start styles footer --- */
+.block-footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 7px 0;
+    background-color: #EAEAEA;
+}
 /* --- end styles footer --- */

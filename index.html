@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:wght@200;700&display=swap" rel="stylesheet">
+    <title>CV Yankovets Darya</title>
+</head>
+<body>
+    <div class="container-cv">
+        <header class="block-header">
+            <nav>
+                <ul>
+                    <li class="nav-item"><a class="nav-aboutme" href="#section-aboutme">About me</a></li>
+                    <li class="nav-item"><a class="nav-education" href="#section-education">Educations</a></li>
+                    <li class="nav-item"><a class="nav-career" href="#section-career">Career</a></li>
+                    <li class="nav-item"><a class="nav-skills" href="#section-skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-code" href="#section-code">Code</a></li>
+                    <li class="nav-item"><a class="nav-contacts" href="#section-contacts">Contacts</a></li>
+                </ul>
+            </nav> 
+        </header>
+        <main class="block-main">
+            <div class="d-flex-left">
+                <div class="d-name section-padding">
+                    <div id="d-name">
+                        <h1>Yankovets Darya</h1>
+                        <h3>Junior Front-End developer</h3>
+                    </div>
+                </div>
+                <section id="section-aboutme" class="section-padding">
+                    <h2 class="h1-background">About me</h2><hr>
+                    <p>Hi! I am Dasha. I want to develop as a front-end developer and work in a team of experienced professionals.  I like to work and see the results of my work.</p>
+                </section>
+                <section id="section-education" class="section-padding">
+                    <h2 class="h1-background">Education</h2><hr>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            2012
+                        </div>
+                        <div class="flex_item_right">
+                            <p><strong>BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS.</strong></p>
+                            <p>Engineering and Economics Faculty</p> 
+                            <p>Information systems and technologies (in economics).</p>
+                            <p>Engineer-economist-programmer.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            2021
+                        </div>
+                        <div class="flex_item_right">
+                            <p>COURSE "Analysis and data management in sql language (on the example of mysql)"</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            2021
+                        </div>
+                        <div class="flex_item_right">
+                            <p>COURSE "JavaScript / DOM / Interfaces" (learn.javascript.ru)</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="section-career" class="section-padding">
+                    <h2 class="h1-background">Career</h2><hr>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            2012-2021
+                        </div>
+                        <div class="flex_item_right">
+                            <strong>BELARUSBANK, BUSINESS ANALYST SAP</strong> 
+                            <ul>
+                                <li>
+                                    <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                                    Development of design solutions and documentation.
+                                </li>
+                                <li>
+                                    <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                                    Development of functional and integration specifications in the areas of SAP HR, MM, FI- AP/AR.
+                                </li>
+                                <li>
+                                    <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                                    Testing of the developed programs.
+                                </li>
+                                <li>
+                                    <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                                    System Setup.
+                                </li>
+                            </ul> 
+                        </div>
+                    </div>
+                </section>
+                <section id="section-code" class="section-padding">
+                    <h2 class="h1-background">Code Example</h2><hr>
+                    <pre><code>
+                        const factorial = (n) => {
+                            if (n < 0) {
+                                return null;
+                            }
+                            if (n === 0) {
+                                return 1;
+                            }
+                            return n * factorial(n - 1);
+                        }
+                    </code></pre>
+                </section>
+            </div>
+
+            <div class="d-flex-right">
+                <div class="d-photo-contacts">
+                    <figure id="figure-photo" class="my_photo">
+                        <img src="images/my_photo.jpeg" alt="My_Photo">
+                    </figure>
+                    <section id="section-contacts" class=" section-padding">
+                        <ul>
+                            <li>
+                                <img src="/images/telephone.svg" alt="phone"> +375 29 3638801
+                            </li>
+                            <li>
+                                <img src="/images/email.svg" alt="email"> 
+                                <a class="tooltip" href="mailto:yankovets.daria@gmail.com" target="_blank" rel="noopener noreferrer">
+                                    yankovets.daria@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <img src="/images/geo.svg" alt="geo"> Belarus, Minsk
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <section id="section-skills" class="section-padding color-white">
+                    <h2>Skills</h2><hr>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            HTML
+                        </div>
+                        <div class="flex_item_right">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            CSS
+                        </div>
+                        <div class="flex_item_right">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            JavaScript
+                        </div>
+                        <div class="flex_item_right">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            React JS
+                        </div>
+                        <div class="flex_item_right">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            React Native
+                        </div>
+                        <div class="flex_item_right">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            Git
+                        </div>
+                        <div class="flex_item_right">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            Bootstrap
+                        </div>
+                        <div class="flex_item_right">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skill-blue.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                            <img class="skill-done" src="/images/skills-grey.svg" alt="html">
+                        </div>
+                    </div>
+                </section>
+                <section id="s-languages" class="section-padding color-white">
+                    <h2>Languages</h2><hr>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            Russian
+                        </div>
+                        <div class="flex_item_right color-blue"> 
+                            native
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex_item_left">
+                            English
+                        </div>
+                        <div class="flex_item_right color-blue"> 
+                            A1
+                        </div>
+                    </div>
+                </section>
+            </div>   
+        </main>
+        <footer class="block-footer">
+            <ul>
+                <li>
+                  <a href="https://github.com/DaryaYankovets" target="_blank">
+                      <img src="images/github.svg" width="80" height="30" alt="GitHub">
+                  </a>
+                </li>
+                <li>
+                    <a href="https://rs.school" target="_blank">
+                        <img src="images/rs_school_js.svg" width="80" height="30"  alt="RSSchool">
+                    </a>
+                </li>
+                <li>
+                    2021 by Yankovets Darya
+                </li>
+              </ul>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #252A34;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-cv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+/* --- start styles header --- */
+.block-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 0.7em;
+    background-color: #EAEAEA;
+}
+
+.block-header ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.nav-item:hover {
+    text-shadow: 2px 0 8px #252A34;
+}
+/* --- end styles header --- */
+
+/* --- start styles main --- */
+/* --- end styles main --- */
+
+/* --- start styles footer --- */
+/* --- end styles footer --- */

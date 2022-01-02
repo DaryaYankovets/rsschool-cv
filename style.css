@@ -49,7 +49,6 @@ hr {
     border-radius: 5px;
 }
 
-/* --- start styles header --- */
 .block-header {
     position: sticky;
     top: 0;
@@ -67,9 +66,7 @@ hr {
 .nav-item:hover {
     text-shadow: 2px 0 8px #252A34;
 }
-/* --- end styles header --- */
-
-/* --- start styles main --- */
+ 
 .block-main {
     display: flex;
     flex-direction: row;
@@ -144,9 +141,7 @@ hr {
     color: #08D9D6;
     font-weight:bold;
 }
-/* --- end styles main --- */
-
-/* --- start styles footer --- */
+ 
 .block-footer ul {
     display: flex;
     justify-content: space-around;
@@ -155,9 +150,7 @@ hr {
     padding: 7px 0;
     background-color: #EAEAEA;
 }
-/* --- end styles footer --- */
-
-/* ----------------- start media max-width: 1024px----------------- */
+ 
 @media screen and (max-width: 1024px) {
     .container-cv {
         width: 100%;
@@ -167,9 +160,7 @@ hr {
         padding-left: 0.em;
     }
 }
-/* ----------------- end media max-width: 1024px------------------- */
-
-/* ----------------- start media max-width: 900px------------------ */
+ 
 @media screen and (max-width: 900px) {
     .block-main {
         flex-direction: column;
@@ -241,9 +232,7 @@ hr {
         border-radius: 5px;
     }
 }
-/* ----------------- end media max-width: 900px------------------ */
-
-/* ----------------- start media  max-width: 700px--------------- */
+ 
 @media screen and (max-width: 600px) {
     .block-header ul {
         flex-direction: column;
@@ -258,4 +247,3 @@ hr {
     }
 
 }
-/* ----------------- end media  max-width: 700px--------------- */

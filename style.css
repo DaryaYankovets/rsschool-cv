@@ -102,7 +102,7 @@ hr {
     margin-top: 40px;
     margin-left: -40px;
     padding-bottom: 15px;
-    width: 85%;
+    width: 395px;
     background-color: #08D9D6;
 }
 
@@ -113,7 +113,6 @@ hr {
 .my_photo img {
     margin-left: 15%;
     margin-top: 3em;
-    width: 70%;
     border-radius: 50%;
 }
 

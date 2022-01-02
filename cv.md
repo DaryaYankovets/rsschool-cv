@@ -1,12 +1,12 @@
 # **Yankovets Darya**
 
-![Photo Yankovets Darya](/img/photo.jpeg)
+![Photo Yankovets Darya](/images/photo.jpeg)
 
-## ![logo](/img/logo.svg) **Summary**
+## ![logo](/images/logo.svg) **Summary**
 <p>I want to develop as a front-end developer and work in a team of experienced professionals</p>
 
 
-## ![logo](/img/logo.svg) Contacts
+## ![logo](/images/logo.svg) Contacts
 * E-mail: yankovets@gmail.com
 * Phone: +375 29 3638801
 * Discord: Dasha (@DaryaYankovets)
@@ -15,7 +15,7 @@
 * Belarus, Minsk
 
 
-## ![logo](/img/logo.svg) **Education**
+## ![logo](/images/logo.svg) **Education**
 **2012** - BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS, Engineering and Economics Faculty, Information systems and technologies (in economics)
 
 
@@ -24,27 +24,27 @@
 **2021** - Course "Analysis and date management in SQL (on the example of MySQL)
 
 
-## ![logo](/img/logo.svg) **Career**
+## ![logo](/images/logo.svg) **Career**
 **2012 - 2021** Belarusbank, SAP Business Analyst 
 
  development of design solutions, documentation, functional and integration specifications in the areas of SAP HR, MM, FI- AP/AR, testing of the developed programs. System Setup.
 
 
-## ![logo](/img/logo.svg) **Skills**
+## ![logo](/images/logo.svg) **Skills**
 * HTML5 
 * CSS
 * JavaScript
 * React JS
 * basic knowledge of working with Git
 
-## ![logo](/img/logo.svg) **Projects**
+## ![logo](/images/logo.svg) **Projects**
 
-* [CV](https://DaryaYankovets.github.io/rsschool-cv/cv) (Marcdown)
+* [CV](https://DaryaYankovets.github.io/rsschool-cv/cv) (Markdown)
 * [Online restaurant](https://github.com/js-tasks-ru/jsbasic-20210722_yankovets-daria) (coding only part of JavaScript)
 * [Todo list](https://github.com/DaryaYankovets/react_native_todo) (React Native)
 
 
-## ![logo](/img/logo.svg) **Example code**
+## ![logo](/images/logo.svg) **Example code**
 ```
 function factorial (n) {
   if (n < 0) return null
@@ -54,6 +54,6 @@ function factorial (n) {
 ```
 
 
-## ![logo](/img/logo.svg) **Languages**
+## ![logo](/images/logo.svg) **Languages**
 * Russian: native
 * English: A1 (in the process of leveling up)

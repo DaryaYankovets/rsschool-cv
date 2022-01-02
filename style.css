@@ -26,15 +26,15 @@ hr {
 .container-cv {
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 .d-flex-left {
-    flex: 1; 
+    width: 60vw; 
 }
 
 .d-flex-right {
-    width: 40%;
+    width: 40vw;
     background-color: #252A34;  
 }
 
@@ -49,7 +49,6 @@ hr {
     border-radius: 5px;
 }
 
-/* --- start styles header --- */
 .block-header {
     position: sticky;
     top: 0;
@@ -67,9 +66,7 @@ hr {
 .nav-item:hover {
     text-shadow: 2px 0 8px #252A34;
 }
-/* --- end styles header --- */
-
-/* --- start styles main --- */
+ 
 .block-main {
     display: flex;
     flex-direction: row;
@@ -102,7 +99,7 @@ hr {
     margin-top: 40px;
     margin-left: -40px;
     padding-bottom: 15px;
-    width: 85%;
+    width: 395px;
     background-color: #08D9D6;
 }
 
@@ -113,16 +110,27 @@ hr {
 .my_photo img {
     margin-left: 15%;
     margin-top: 3em;
-    width: 70%;
     border-radius: 50%;
 }
 
+.photo-adaptive {
+    display: none;
+}
+
 #section-contacts {
-    padding-left: 45px;
+    padding-left: 1em;
 }
 
 #section-contacts li {
     padding: 7px 0;
+}
+
+.text-title-adaptive {
+    display: none;
+}
+
+.hr-display-none{
+    display: none;
 }
 
 .color-white {
@@ -133,9 +141,7 @@ hr {
     color: #08D9D6;
     font-weight:bold;
 }
-/* --- end styles main --- */
-
-/* --- start styles footer --- */
+ 
 .block-footer ul {
     display: flex;
     justify-content: space-around;
@@ -144,4 +150,100 @@ hr {
     padding: 7px 0;
     background-color: #EAEAEA;
 }
-/* --- end styles footer --- */
+ 
+@media screen and (max-width: 1024px) {
+    .container-cv {
+        width: 100%;
+    }
+
+    #section-contacts {
+        padding-left: 0.em;
+    }
+}
+ 
+@media screen and (max-width: 900px) {
+    .block-main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-cv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .d-flex-left {
+        width: 100%;
+    }
+
+    .d-flex-right {
+        width: 100%;
+        background-color: #ffffff;
+    }
+
+    .d-photo-contacts {
+        position: static;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+    }
+
+    .color-white {
+        color: #000000;    
+    }
+
+    .photo-adaptive {
+        display: block;
+        width: 100%;
+    }
+
+    .photo-adaptive img { 
+        display: block;
+        width: 55%;
+        border-radius: 50%;   
+        margin: 0 auto;
+    }
+    
+    .my_photo {
+        display: none;
+    }
+
+    .d-name {
+        padding: 3em;
+        font-size: 33px;
+    }
+
+    .text-title-adaptive {
+        display: inline;
+    }
+
+    .hr-display-none{
+        display: block;
+    }
+    
+    .color-white h2 {
+        display: inline;
+        background: #08D9D6;
+        padding: 0.1em 0.3em;
+        border-radius: 5px;
+    }
+}
+ 
+@media screen and (max-width: 600px) {
+    .block-header ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .block-footer ul {
+        flex-direction: column;
+        margin: 1.4em 0;
+        width: 100%;
+    }
+
+}
